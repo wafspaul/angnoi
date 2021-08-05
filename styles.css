@@ -1,0 +1,214 @@
+body {
+  font-family: "Montserrat";
+}
+
+@media (max-width:992px) and (min-width:768px) {
+  #title {
+    background-color: rgb(141, 173, 147);
+  }
+}
+
+#title {
+  background-color: #fff6e6;
+}
+
+.heading-2 {
+  font-family: "Montserrat-Black";
+  font-size: 14px;
+  line-height: 30px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-indent: 5px;
+  text-transform: uppercase;
+  padding-top: 30%;
+}
+
+h1 {
+  font-family: "Montserrat-Black";
+  line-height: 80px;
+  font-weight: 300;
+}
+
+a {
+  background-color: transparent;
+}
+
+a:hover {
+  color: #8dad93;
+}
+
+.container-fluid {
+  padding: 3% 13%;
+}
+
+/* navigation bar */
+.navbar {
+  padding: 0 0 4rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 22px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: right;
+  letter-spacing: 0.0909091em;
+  color: #4a5c4d;
+  line-height: 1em;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+}
+
+/* title image */
+.title-image {
+  max-width: 100%;
+  object-position: 50% 50%;
+}
+
+.green-bar {
+  background-color: #8dad93;
+  height: 30px;
+  z-index: 3;
+}
+
+/* About section */
+#aboutsection {
+  padding: 7% 15%;
+}
+
+.heading-3 {
+  color: #4a5c4d;
+  font-size: 26px;
+  line-height: 42px;
+  font-weight: 400;
+  font-family: "Montserrat-Bold";
+}
+
+.link-01 {
+  color: #4a5c4d;
+  text-decoration: none;
+}
+
+.heading3-break {
+  margin-bottom: 30px;
+}
+
+.heading-3.page-02 {
+  margin-bottom: 30px;
+}
+
+.text-block {
+  font-size: 42px;
+}
+
+.button-01 {
+  border-radius: 20px;
+  border-color: #8dad93;
+  height: 40px;
+  padding: 10px 40px;
+  border-style: solid;
+  border-width: 2px;
+  color: rgb(141, 173, 147);
+  text-align: center;
+  text-decoration: none;
+}
+
+.button-01:hover {
+  color: #000;
+}
+
+.Project {
+  background-color: #4a5c4d;
+  padding: 7% 15%;
+  height: 50px;
+}
+
+/* cta section */
+#cta {
+  background-color: rgb(255, 246, 230);
+  padding: 7% 15%;
+  text-align: center;
+}
+
+.heading-2-cta {
+  font-family: "Montserrat-Black";
+  align-self: center;
+  color: #324235;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: 300;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+
+
+/* Footer section */
+#footer {
+  padding: 7% 15%;
+  text-align: center;
+  background-color: #324235;
+  position: static;
+  margin-top: auto;
+}
+
+.footer-contact {
+  position: relative;
+  display: flex;
+  margin-right: auto;
+  padding-top: 20px;
+}
+
+.email-link {
+  font-family: "Montserrat-Black", sans-serif;
+  color: #fff6e6;
+  font-size: 42px;
+  font-weight: 300;
+  text-decoration: none;
+}
+
+.icons {
+  position: relative;
+  display: flex;
+  margin-top: 20px;
+}
+
+.social-icon {
+  margin: 20px 15px;
+  font-size: 42px;
+  text-decoration: none;
+  color: #fff6e6;
+}
+
+.beige-bar {
+  width: 100px;
+  height: 6px;
+  margin: 20px;
+  background-color: #fff6e6;
+  align-self: center;
+  padding: 0;
+}
+
+.heading-footer {
+  align-self: auto;
+  font-family: "Montserrat-Black", sans-serif;
+  color: #fff6e6;
+  font-size: 122px;
+  line-height: 122px;
+  font-weight: 300;
+  margin-top: 2px;
+}
+
+.subfooter-text {
+  font-family: "Montserrat";
+  color: #fff6e6;
+  display: flex;
+  margin-top: 50px;
+  margin-left: auto;
+}
