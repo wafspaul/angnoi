@@ -42,8 +42,8 @@ h1 {
 /* hero section */
 .hero-section {
   height: 100vh;
-  background-image: linear-gradient(180deg, transparent, transparent), url(https://uploads-ssl.webflow.com/5db9ac73ce618b0e1d8f9a6e/5ee6f2167580a133ce943f88_about-hero-image-01.png);
-  background-image: linear-gradient(180deg, transparent, transparent), url(/image/esther-cover.jpg);
+/*   background-image: linear-gradient(180deg, transparent, transparent), url(https://uploads-ssl.webflow.com/5db9ac73ce618b0e1d8f9a6e/5ee6f2167580a133ce943f88_about-hero-image-01.png); */
+  background-image: linear-gradient(180deg, transparent, transparent), url(../image/esther-cover.jpg);
   background-size: auto, cover;
   background-attachment: scroll, fixed;
   background-position: 0px 0px, 50% 50%;
